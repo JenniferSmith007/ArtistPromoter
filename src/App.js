@@ -5,14 +5,20 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Error from './components/Error';
 
+
 const App = () => {
   return( 
   <Router>
-    <nav>
-      <Link to='/'>Home</Link>
-      <Link to='/services'>Services</Link>
-      <Link to='/contact'>Contact</Link>
-    </nav>
+  
+      
+     <nav>
+      <Link to='/' className='home-link'>Home </Link>
+      <Link to='/services'className='services-link'>Services</Link>
+      <Link to='/contact' className='contact-link'>Contact</Link>
+     
+     </nav>
+    
+
     <Routes>
 <Route path='/' element={<Home/>} />
 <Route path='/services' element={<Services />} />
