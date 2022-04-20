@@ -1,8 +1,13 @@
 import React from "react";
-
+import rounded from './images/rounded.svg'
 const Services = () => {
     return(
-        <h1>Services</h1>
+        <div>
+        <img className='services-round' src={rounded} alt="logo" /> 
+       
+       
+       
+        </div>
     );
 }
 
