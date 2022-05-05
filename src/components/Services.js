@@ -1,5 +1,5 @@
 import React from "react";
-// import rounded  from './images/rounded.svg';
+import rounded  from './images/rounded.svg';
 const Services = () => {
     return(
      
@@ -7,7 +7,7 @@ const Services = () => {
       
         <div className="serv">
             
-            {/* <img className='services-round' src={rounded} alt="logo"  /> */}
+            <img className='services-round' src={rounded} alt="logo"  />
         <div className='spins'>
             <h1 className='title'>Radio Spins</h1>
            <li>Hip Hop Weekly Radio </li>
