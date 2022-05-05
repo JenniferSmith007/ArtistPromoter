@@ -6962,6 +6962,11 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
+react-native-email-link@^1.13.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/react-native-email-link/-/react-native-email-link-1.13.1.tgz#7c393d47bf2d82476a45c790d67e2400ded5eb37"
+  integrity sha512-x40P9DjooTJ/bYKjCZAOrWs0prDNPrg/tcjyr29W1roCYG8BqHhbYcaq0wS/SKkkUc3+/xrbmzm4NeANgvD7iA==
+
 react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"

@@ -31,6 +31,13 @@ nav a {
   text-align: center;
   align-self: center;
 }
+a:active{
+  color: #1FDBB7;
+}
+a:hover{
+  color: #1FDBB7;
+}
+
 .home-container{
   display: flex;
   flex-direction: column;
@@ -61,12 +68,12 @@ font-size: 8em;
 .services-round{
   display: flex;
  
-    top: 15em;
+    top: 20em;
     /* float: right; */
    
     width:10em;
     height: 10em;
-    margin:5em 0 0 10em;
+    margin:25em 0 -14em 6em;
     /* -webkit-animation:spin 4s linear infinite; */
     /* -moz-animation:spin 6s linear infinite; */
     animation:spin 7s linear infinite;
@@ -80,4 +87,52 @@ font-size: 8em;
 li {
   color: white;
   padding-bottom: 1em;
+list-style: none;
+
+}
+
+.contact-form{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+textarea{
+  border: solid #1FDBB7 .3em;
+  width: 60em;
+  height: 30em;
+  
+}
+textarea::placeholder{
+  color: rgb(221, 221, 221);
+  text-align: center;
+padding-top: 2em;
+}
+input{
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: center;
+ align-content: center;
+}
+
+.submit{
+  margin-left: 10.5em;
+  margin-top:1em;
+  font-size: 1.5em;
+  padding: 1em 5em;
+  border-radius: .3em;
+  border-color: #1FDBB7;
+  
+ 
+}
+
+.serv{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+text-align: center;
+margin-top: -20%;
 }

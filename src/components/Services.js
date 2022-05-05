@@ -1,13 +1,13 @@
 import React from "react";
-import rounded from './images/rounded.svg'
+import rounded  from './images/rounded.svg';
 const Services = () => {
     return(
      
        
       
-        <div>
+        <div className="serv">
             
-            {/* <img className='services-round' src={rounded} alt="logo"  /> */}
+            <img className='services-round' src={rounded} alt="logo"  />
         <div className='spins'>
             <h1 className='title'>Radio Spins</h1>
            <li>Hip Hop Weekly Radio </li>
@@ -16,7 +16,7 @@ const Services = () => {
             <h1 className='title'>Music Video Placement </h1>
             <ul>
                 <li>Apple Music, Tidal, and VEVO $950</li>
-                <li>Video on BET Jams/MTV Jams/Revolt $1200 (refundable if it doesn't get picked up has to be clean</li>
+                <li>Video on BET Jams/MTV Jams/Revolt $1200 (refundable if it doesn't get picked up has to be clean)</li>
             </ul>
         </div>
         <div className='consultation'>
