@@ -38,7 +38,7 @@ jobs:
       - name: Build Node assets
         env:
           CI: true
-          SITE_URL: ${{ steps.project.outputs.site-url }}
+          SITE_URL:  https://getpiffy.com
         run: |
           npm install --global yarn
           yarn install --frozen-lockfile
