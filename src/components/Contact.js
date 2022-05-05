@@ -4,7 +4,7 @@ const Contact = () => {
 
 return (
     <div className="contact-form">
-    <form action="mailto:smith.jennifer.rchs@gmail.com" method="get" enctype="text/plain">
+    <form action="mailto:mikepiff212@gmail.com" method="get" enctype="text/plain">
    
      <div >
       <label align="center"><h1>Get In Touch.</h1> </label>
